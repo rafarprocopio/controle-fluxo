@@ -14,8 +14,6 @@ public static void main(String[] args) {
     }else{
      System.out.println("Reprovado");
     }
-
-
     //nova forma melhorada de escrever
     String resultado = nota >=7 ? "Aprovado" : "Reprovado";
     System.out.println(resultado);
@@ -23,6 +21,5 @@ public static void main(String[] args) {
     //nova segunda forma melhorada de escrever
     String resultado = nota >=7 ? "Aprovado" : nota >=5 && nota <7 ? "Recuperação" : "Reprovado";
     System.out.println(resultado);
-    
-    }    
+        }    
 }
