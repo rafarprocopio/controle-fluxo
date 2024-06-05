@@ -1,9 +1,10 @@
 import java.util.Locale;
 import java.util.Scanner;
+import java.util.InputMismatchException;
 
 public class AboutMe {
 
-    public static void main(String[] args) {
+test    public static void main(String[] args) {
         try{
         //criando o objeto scanner
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
@@ -28,7 +29,7 @@ public class AboutMe {
         scanner.close();   
         }
         catch (InputMismatchException e){
-            System.out.println("Os campos idade e altuzra precisam ser numéricos e deve-se utilizar sempre ponto no lugar de vírugula");
+            System.out.println("Os campos idade e altura precisam ser numéricos e deve-se utilizar sempre ponto no lugar de vírugula");
         }
         
     }
