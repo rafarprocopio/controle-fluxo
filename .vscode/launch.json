@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FormatadordeCepExemplo",
+            "request": "launch",
+            "mainClass": "FormatadordeCepExemplo",
+            "projectName": "controle-fluxo_178ab70d"
+        },
+        {
+            "type": "java",
+            "name": "ExemploExcecao",
+            "request": "launch",
+            "mainClass": "ExemploExcecao",
+            "projectName": "controle-fluxo_178ab70d"
+        },
+        {
+            "type": "java",
             "name": "AboutMe",
             "request": "launch",
             "mainClass": "AboutMe",
